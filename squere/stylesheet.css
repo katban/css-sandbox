@@ -1,0 +1,18 @@
+.element {
+  width: 300px;
+  height: 300px;
+  animation: pulsee 5s infinite;
+}
+
+@keyframes pulsee {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+/*.element:before {
+  content: "z ";
+}
+*/
